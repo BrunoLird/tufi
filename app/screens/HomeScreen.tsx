@@ -72,10 +72,6 @@ export const HomeScreen: FC<AppStackScreenProps<"HomeScreen">> =
               </View>
             </View>
           </View>
-          <Button
-            title="Click in home"
-            onPress={() => alert("This is home screen")}
-          />
         </View>
       </ScrollView>
     )
